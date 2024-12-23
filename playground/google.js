@@ -6,7 +6,7 @@ import { createStorage } from 'unstorage'
 import fsDriver from 'unstorage/drivers/fs-lite'
 
 const storage = createStorage({
-  driver: fsDriver({ base: 'output' }),
+  driver: fsDriver({ base: '/app/artifact' }),
 })
 
 const unifont = await createUnifont([

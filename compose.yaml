@@ -1,0 +1,8 @@
+name: oss-experiment-unjs-unifont
+
+services:
+  unifont:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
