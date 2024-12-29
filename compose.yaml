@@ -6,3 +6,5 @@ services:
       context: .
       dockerfile: Dockerfile
     tty: true
+    volumes:
+      - ./artifact:/app/artifact
