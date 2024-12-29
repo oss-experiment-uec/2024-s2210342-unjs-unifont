@@ -1,5 +1,7 @@
 # Artifact Description
 
+**クレジット**：
+
 ## 概要：Google Font / Google Icons において、事前に必要な文字を指定しダウンロードされるフォントを小さくするオプションを利用可能にする
 
 [unjs/unifont](https://github.com/unjs/unifont)は、様々なサービスが提供している Web Font を TypeScript から統一的な Interface で扱うためのツールである。
